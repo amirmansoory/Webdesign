@@ -1,0 +1,8 @@
+CDN
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+
+
+
+css:
+
+    font-family: Vazirmatn, sans-serif;
