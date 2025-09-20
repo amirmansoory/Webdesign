@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گروه فنی مهندسی آرا کنترل</title>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="img/mainaraL2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <head>
+</head>
+
+
+
+</head>
+
+
+
+<body>
+
+    <header>
+
+        <div class="headersearchbar">
+
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <form class="d-flex searchbar" role="search">
+
+                        <input class="form-control " type="search" placeholder='  جستجو کنید ...' aria-label="Search">
+                        <button class="btn  " type="submit">جستجو</button>
+                    </form>
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="sec-menu">
+
+            <nav class="navbar main-sec-menu ">
+                <div class="sec-menu-item rows w-100">
+
+                    <section class="sec-menu-icons  col">
+                        <div>
+                            <a href="index.html"><i class="bi bi-house-fill Hicon"></i></a>
+                        </div>
+                        <div>
+                            <a href="shop.html"><i class="bi bi-cart4 Hicon"></i></a>
+                        </div>
+
+
+
+                        <div class="switch-container" onclick="toggleMode()">
+                            <div class="switch">
+                                <a href="#">
+                                    <i id="icon" class="bi bi-moon-stars-fill Hicon" onclick="toggleIcon()"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <script src="script.js"></script>
+
+                    </section>
+
+                    <div class="sec-mid-menu col-6">
+                        <ul class="nav justify-content-center ">
+                            <li class="nav-item mid-menu-item m-1">
+                                <a class="nav-link " aria-current="page" href="index.html">آرا کنترل</a>
+                            </li>
+                            <li class="nav-item mid-menu-item m-1">
+                                <a class="nav-link" href="shop.html"><i class="bi bi-basket"></i>محصولات
+                                </a>
+                            </li>
+                            <li class="nav-item mid-menu-item m-1">
+                                <a class="nav-link" href="repairs.html"><i class="bi bi-wrench-adjustable"></i>
+                                    تعمیرات</a>
+                            </li>
+                            <li class="nav-item mid-menu-item m-1">
+                                <a class="nav-link " href="aboutus.html">
+                                    <i class="bi bi-info-circle"></i>درباره ما</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <section class="sec-menu-sidebar col text-end ">
+                        <img class="logo-img" src="img/mainaraL2.jpg" alt="">
+
+                        <button class="navbar-toggler bg-light rightside-menu-btn" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle   navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </section>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                                <img class="img-fluid" src="img/mainaraL2.jpg" alt="">
+                            </h5>
+
+                        </div>
+
+                        <div class="offcanvas-body ">
+
+                            <ul class="navbar-nav justify-content-end flex-grow-1  side-menu-bar">
+
+                                <li class="nav-item offcanvas-menu-item">
+                                    <a class="nav-link offcanvas-item-text active" aria-current="page"
+                                        href="index.html">آرا
+                                        کنترل</a>
+                                </li>
+                                <li class="nav-item offcanvas-menu-item">
+                                    <a class="nav-link offcanvas-item-text" href="projects.html">انجام پروژه</a>
+                                </li>
+                                <li class="nav-item offcanvas-menu-item">
+                                    <a class="nav-link offcanvas-item-text" href="shop.html">فروشگاه </a>
+                                </li>
+
+                                <li class="nav-item offcanvas-menu-item">
+                                    <a class="nav-link offcanvas-item-text" href="repairs.html"> تعمیرات</a>
+                                </li>
+                                <li class="nav-item offcanvas-menu-item">
+                                    <a class="nav-link offcanvas-item-text" href="aboutus.html"> درباره ما</a>
+                                </li>
+                            </ul>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="titel container">
+            <h2>
+                <i class="bi bi-tools"></i> گروه فنی مهندسی آرا کنترل
+                <i class="bi bi-tools"></i>
+            </h2>
+        </div>
+        <script src="script.js"></script>
+
+    </header>
+
+    <section class="body-items container mt-3">
+        <div class="projects-tittel text-center mt-3">
+            <h2>
+                فعالیت های آرا کنترل
+                <i class="bi bi-card-checklist"></i>
+            </h2>
+        </div>
+        <div class="H-projects-tittel mt-3">
+            <h5>
+                این مجموعه یکی از وظایف اصلی خود را افزایش دانش فنی اتوماسیون کشور و کوتاه کردن دست وارد کنندگان این
+                عرصه می‌داند؛ لذا به همین دلیل اقدام به ساخت فیلم‌های آموزشی رایگان، فایل‌های آموزشی رایگان، برگزاری
+                کلاس‌های آموزشی اتوماسیون و برق صنعتی مختلف با هزینه‌های مناسب کرده است. همچنین در همین راستا تصمیم به
+                تشکیل گروه مجازی کرده‌ایم که به جرات می‌توان گفت کمتر سوالی در آن بدون جواب می‌ماند و همچنین تمام اعضای
+                مجموعه نیک صنعت با پشتیبانی 24 ساعته در خدمت شما هستند.
+            </h5>
+        </div>
+    </section>
+    <!-- <section class="carousels container">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carosel (1).jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>گروه فنی مهندسی آرا کنترل</h5>
+                        <p>مجری پروژه های اتوماسیون صنعتی برنامه نویسی انواع plc</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carosel (2).jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carosel (3).jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section> -->
+
+    <section class="body-items container mt-3">
+
+        <div class="projects">
+            <div class="projects-tittel text-center fs-3  mt-3">
+                <p>
+                    <i class="bi bi-gear-wide-connected"></i> نمونه پروژه های آرا کنترل
+                    <i class="bi bi-gear-wide-connected"></i>
+                </p>
+            </div>
+
+            <div class="project-cards">
+
+                <div class="project-card-no1 project-card ">
+
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="project-modal-btn " data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+
+                                <div class="col-md-4">
+                                    <img src="img/IMG_20250424_202302_188.jpg" class="img-fluid rounded-start"
+                                        alt="...">
+                                </div>
+
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">کنترلر تراش دو محور با plc s7 1200 </h5>
+                                        <p class="card-text">
+                                            تعمیر و بازطراحی کنترلر تراش دو محور با استفاده از PLC S7-1200 زیمنس؛ اجرای
+                                            دقیق و قابل اعتماد برای کنترل محورهای X و Z.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </button>
+
+                    <script>
+          
+                    </script>
+
+                </div>
+
+                <div class="project-card-no2 project-card">
+
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="project-modal-btn" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal2">
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+
+                                <div class="col-md-4">
+                                    <img src="img/WhatsApp Image 2025-08-19 at 19.19.37 (1).jpeg"
+                                        class="img-fluid rounded-start" alt="...">
+                                </div>
+
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title"> کنترلر دستگاه دسته بندی شکلات . 8 محور سنکرون شده. plc
+                                            s7 1200</h5>
+                                        <p class="card-text">تعمیر و بازسازی کنترلر دستگاه دسته‌بندی شکلات با ۸ محور
+                                            سنکرون‌شده، اجرا شده با PLC S7-1200 زیمنس؛ هماهنگی دقیق و عملکرد پایدار در
+                                            خطوط بسته‌بندی.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </button>
+
+
+
+
+                </div>
+
+                <div class="project-card-no3 project-card">
+
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="project-modal-btn" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal3">
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+
+                                <div class="col-md-4">
+                                    <img src="img/WhatsApp Image 2025-08-19 at 19.19.37.jpeg"
+                                        class="img-fluid rounded-start" alt="...">
+                                </div>
+
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title"> دستگاه بسته بندی شکلات . درحال کار . حداکثر سرعت 240
+                                            بسته در دقیقه</h5>
+                                        <p class="card-text">تعمیر و راه‌اندازی دستگاه بسته‌بندی شکلات با عملکرد پایدار
+                                            و سرعت بالا؛ ظرفیت عملیاتی تا ۲۴۰ بسته در دقیقه، مناسب برای خطوط تولید
+                                            پرتیراژ.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </button>
+
+
+
+                </div>
+
+                <div class="project-card-no4 project-card">
+
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="project-modal-btn" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal4">
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+
+                                <div class="col-md-4">
+                                    <img src="img/IMG_20250424_202310_422.jpg" class="img-fluid rounded-start"
+                                        alt="...">
+                                </div>
+
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            تعمیر و بازسازی دستگاه برش سنگ تک سیم با تمرکز بر کنترل کشش، سرعت و ایمنی
+                                            عملیات برش.
+                                        </h5>
+                                        <p class="card-text">
+                                            در این پروژه، شرکت آراکنترل با بهره‌گیری از دانش تخصصی در اتوماسیون صنعتی،
+                                            عملکرد دستگاه را بهینه‌سازی کرده و دقت برش را در بلوک‌های سنگی به سطحی
+                                            بی‌نظیر رسانده است. این سیستم با کنترل هوشمند سیم الماسه، مناسب برای
+                                            محیط‌های سنگ‌بری حرفه‌ای و خطوط تولید با حساسیت بالا می‌باشد.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </button>
+
+
+                </div>
+
+                <div class="project-card-no5 project-card ">
+
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="project-modal-btn" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal5">
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+
+                                <div class="col-md-4">
+                                    <img src="img/IMG_20250424_202311_412.jpg" class="img-fluid rounded-start"
+                                        alt="...">
+                                </div>
+
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            کنترلر دستگاه برش سنگ
+                                        </h5>
+                                        <p class="card-text">
+                                            تعمیر و راه‌اندازی دستگاه بسته‌بندی شکلات با عملکرد پایدار و سرعت بالا؛
+                                            ظرفیت عملیاتی تا ۲۴۰ بسته در دقیقه، مناسب برای خطوط تولید پرتیراژ.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </button>
+
+
+
+
+                </div>
+
+                <div class="project-card-no6 project-card">
+
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="project-modal-btn" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal6">
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+
+                                <div class="col-md-4">
+                                    <img src="img/IMG_20250424_202315_861.jpg" class="img-fluid rounded-start"
+                                        alt="...">
+                                </div>
+
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">تعمیر و بازسازی کنترلر دستگاه تولید ماسک با تمرکز بر
+                                            هماهنگی اجزای مکانیکی، کنترل سرعت و دقت در مراحل دوخت و برش.</h5>
+                                        <p class="card-text">
+                                            در این پروژه، شرکت آراکنترل با بهره‌گیری از PLC صنعتی و سیستم‌های
+                                            مانیتورینگ، عملکرد دستگاه را بهینه‌سازی کرده و تولید ماسک را با کیفیت بالا و
+                                            بدون توقف تضمین نموده است. مناسب برای خطوط تولید سه‌لایه، N95 و ماسک‌های
+                                            پزشکی با ظرفیت بالا.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </button>
+
+
+
+                </div>
+
+                <div class="project-card-no7 project-card">
+
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="project-modal-btn" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal6">
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+
+                                <div class="col-md-4">
+                                    <img src="img/IMG_20250424_202308_519.jpg" class="img-fluid rounded-start"
+                                        alt="...">
+                                </div>
+
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">تعمیر و بازسازی کامل دستگاه مولتی وایر برش سنگ با ۳۲ سیم
+                                            فعال؛ کنترل دقیق کشش، سرعت و جریان موتور اصلی برای برش یکنواخت و بدون لرزش
+                                            بلوک‌های سنگی.</h5>
+                                        <p class="card-text">
+                                            شرکت آراکنترل با بهره‌گیری از تخصص بالا در اتوماسیون صنعتی، عملکرد این
+                                            دستگاه را بهینه‌سازی کرده و آن را آماده بهره‌برداری در خطوط سنگ‌بری با ظرفیت
+                                            بالا و دقت میلی‌متری کرده است
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </button>
+
+
+
+
+                </div>
+
+                <div class="project-card-no8 project-card">
+
+
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="project-modal-btn" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal3">
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+
+                                <div class="col-md-4">
+                                    <img src="img/IMG_20250424_202305_884.jpg" class="img-fluid rounded-start"
+                                        alt="...">
+                                </div>
+
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">تعمیر تخصصی درایو ۲۳۲ کیلووات دستگاه مولتی وایر برش سنگ،
+                                            با تمرکز بر کنترل جریان، گشتاور و هماهنگی با سیستم کشش سیم‌ها.</h5>
+                                        <p class="card-text">
+                                            در این پروژه، تیم فنی آراکنترل با بهره‌گیری از دانش عمیق در زمینه درایوهای
+                                            توان بالا، عملکرد موتور اصلی دستگاه را بهینه‌سازی کرده و پایداری سیستم را در
+                                            شرایط کاری سنگین تضمین نموده است. این درایو نقش حیاتی در حفظ سرعت یکنواخت
+                                            برش و جلوگیری از لرزش سیم‌ها دارد.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </button>
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="body-items container mt-3">
+
+        <div class="aracontorl ">
+
+            <div id="aracontrol-tittel">
+                <h2>
+                    آرا کنترل
+                </h2>
+            </div>
+
+            <div class="aracontrol-body">
+
+                <div class="aracontrol-body-p1">
+                    <p>
+                    <h2>
+                        چرا آرا کنترل را انتخاب کنیم؟
+                    </h2>
+                    </p>
+                    <p>
+                        ما کی هستیم؟ شرکت ما با بیش از چندین سال تجربه در زمینه اتوماسیون صنعتی، به صنایع مختلف کمک کرده
+                        تا با استفاده از تکنولوژی‌های روز، تولیدی هوشمند، دقیق و پایدار داشته باشند. تخصص ما در طراحی،
+                        پیاده‌سازی و پشتیبانی سیستم‌های اتوماسیون، تضمین‌کننده کیفیت و عملکرد شماست.
+                    </p>
+                </div>
+
+                <div class="aracontrol-body-p2">
+                    <p>
+                    <h2>
+                        مجموعه آرا کنترل
+                    </h2>
+                    </p>
+                    <p>
+                        شرکت آراکنترل با هدف ارتقاء بهره‌وری و هوشمندسازی فرآیندهای صنعتی، فعالیت خود را در حوزه
+                        اتوماسیون صنعتی آغاز کرده و امروز به‌عنوان یکی از مجموعه‌های پیشرو در این زمینه شناخته می‌شود.
+                        ما با تکیه بر دانش فنی، تجربه عملی و استفاده از تکنولوژی‌های روز دنیا، راهکارهایی ارائه می‌دهیم
+                        که تولید را سریع‌تر، دقیق‌تر و اقتصادی‌تر می‌کنند.
+
+                        تیم متخصص آراکنترل در طراحی، پیاده‌سازی و پشتیبانی سیستم‌های کنترل صنعتی، همواره به دنبال ارائه
+                        راه‌حل‌هایی است که متناسب با نیازهای خاص هر مشتری باشد. از خطوط تولید کوچک تا پروژه‌های بزرگ
+                        صنعتی، ما همراه شما هستیم تا فرآیندهایتان را به سطحی جدید از هوشمندی و کارایی برسانیم.
+
+                        آراکنترل، انتخابی مطمئن برای صنعتی که به آینده فکر می‌کند.
+                    </p>
+                </div>
+
+                <div class="aracontrol-body-p3">
+                    <p>
+                    <h2>
+                        فروش محصولات اتوماسیون صنعتی
+                    </h2>
+                    </p>
+                    <p>
+                        در دنیای امروز، سرعت، دقت و هوشمندی سه عنصر کلیدی در موفقیت صنایع هستند. شرکت آراکنترل با ارائه
+                        مجموعه‌ای کامل از محصولات تخصصی در حوزه اتوماسیون صنعتی، به کسب‌وکارها کمک می‌کند تا فرآیندهای
+                        تولید خود را به سطحی جدید از بهره‌وری و کنترل برسانند.
+
+                        ما نماینده و تأمین‌کننده رسمی برندهای معتبر جهانی هستیم و محصولات ما شامل انواع PLC، HMI،
+                        سنسورها، درایوها، تجهیزات مانیتورینگ و کنترل، و قطعات جانبی مورد نیاز برای اتوماسیون خطوط تولید
+                        می‌باشد. تمامی محصولات با ضمانت اصالت، کیفیت بالا و پشتیبانی فنی ارائه می‌شوند.
+                    </p>
+                </div>
+
+                <div class="aracontrol-body-p4">
+                    <p>
+                    <h2>
+                        آموزش اتوماسیون صنعتی
+                    </h2>
+                    </p>
+                    <p>
+                        در دنیای پرشتاب صنعت، آموزش تخصصی کلید موفقیت و پیشرفت است. شرکت آراکنترل با هدف ارتقاء دانش فنی
+                        فعالان حوزه اتوماسیون صنعتی، مجموعه‌ای از دوره‌های آموزشی کاربردی و به‌روز را طراحی و برگزار
+                        می‌کند.
+
+                        این دوره‌ها با تمرکز بر آموزش عملی، انتقال تجربه‌های واقعی پروژه‌ای و آشنایی با تجهیزات و
+                        نرم‌افزارهای روز دنیا، برای مهندسان، تکنسین‌ها و علاقه‌مندان به اتوماسیون صنعتی مناسب هستند.
+                    </p>
+                </div>
+
+                <div class="aracontrol-body-p5">
+                    <p>
+                    <h2>
+                        انجام پروژه اتوماسیون صنعتی
+                    </h2>
+                    </p>
+
+                    <p>
+                        در دنیای پیچیده و رقابتی صنعت، اجرای موفق پروژه‌های اتوماسیون صنعتی نیازمند چیزی فراتر از دانش
+                        فنی است؛ نیازمند تجربه، دقت، خلاقیت و درک عمیق از فرآیندهای تولید. شرکت آراکنترل با سال‌ها
+                        فعالیت تخصصی در این حوزه، ثابت کرده که اجرای پروژه‌های اتوماسیون نه‌تنها تخصص ماست، بلکه نقطه
+                        قوت و افتخار ماست.
+
+                        ما در آراکنترل، هر پروژه را به‌عنوان یک مأموریت منحصر‌به‌فرد می‌بینیم. از تحلیل دقیق نیازهای
+                        مشتری گرفته تا طراحی سیستم‌های کنترل، برنامه‌نویسی، نصب تجهیزات، تست نهایی و آموزش پرسنل، همه
+                        مراحل با بالاترین سطح دقت و استانداردهای بین‌المللی انجام می‌شوند. تیم مهندسی ما متشکل از
+                        متخصصانی است که نه‌تنها در زمینه اتوماسیون صنعتی آموزش دیده‌اند، بلکه تجربه عملی در پروژه‌های
+                        بزرگ و پیچیده را در کارنامه خود دارند.
+
+
+                        ما باور داریم که اتوماسیون صنعتی فقط نصب چند دستگاه نیست؛ بلکه یک تحول بنیادین در نحوه تولید،
+                        کنترل و مدیریت منابع است. به همین دلیل، پروژه‌های ما نه‌تنها بهبود عملکرد را به همراه دارند،
+                        بلکه زیرساختی پایدار برای رشد آینده سازمان شما ایجاد می‌کنند.
+
+                        آراکنترل، انتخابی برای آن‌هایی که به کیفیت، تخصص و نتیجه اهمیت می‌دهند. اگر به‌دنبال تیمی هستید
+                        که پروژه‌تان را با نهایت دقت، مهارت و تعهد اجرا کند، آراکنترل آماده است تا از اولین جلسه مشاوره
+                        تا آخرین لحظه تحویل، در کنار شما باشد.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="aracontrol-body">
+                <div id="aracontrol-tittel">
+                    <h2>
+                        اتوماسیون صنعتی
+                    </h2>
+                </div>
+                <div class="aracontrol-body-p1">
+                    <p>
+
+                    </p>
+                    <p>
+                        اتوماسیون صنعتی با آراکنترل
+                        اتوماسیون صنعتی یعنی استفاده از فناوری برای کنترل و مدیریت فرآیندهای تولید، بدون نیاز به دخالت
+                        مستقیم انسان. این سیستم‌ها باعث افزایش سرعت، دقت، ایمنی و کاهش هزینه‌ها در صنایع مختلف می‌شن.
+
+                        شرکت آراکنترل با تخصص بالا در طراحی، اجرای پروژه‌های اتوماسیون، فروش تجهیزات تخصصی و برگزاری
+                        دوره‌های آموزشی، به‌عنوان یک همراه مطمئن در مسیر هوشمندسازی صنعت شناخته می‌شه. ما با تکیه بر
+                        دانش فنی، تجربه عملی و همکاری با برندهای معتبر جهانی، راهکارهایی ارائه می‌دیم که تولید شما رو
+                        متحول می‌کنن.
+
+                        از مشاوره تا اجرا، از آموزش تا پشتیبانی—آراکنترل در کنار شماست تا صنعتتان را به آینده متصل کند.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+      <div class="fix=contactus">
+  <button class="toggle-btn-fc" onclick="toggleMenu()">  
+          <i class="fas fa-phone"></i>
+
+  </button>
+
+  <div class="menu-bar-fc" id="menuBar-fc">
+    <div class="menu-button-fc" onclick="window.location.href='tel:+989123456789'">
+      <i class="fas fa-phone"></i>
+    </div>
+    <div class="menu-button-fc" onclick="window.open('https://instagram.com/yourprofile', '_blank')">
+      <i class="fab fa-instagram"></i>
+    </div>
+    <div class="menu-button-fc" onclick="window.open('https://wa.me/989123456789', '_blank')">
+      <i class="fab fa-whatsapp"></i>
+    </div>
+    <div class="menu-button-fc" onclick="window.location.href='mailto:your@email.com'">
+      <i class="fas fa-envelope"></i>
+    </div>
+  </div>
+  </div>
+<script src="script.js"></script>
+
+</body>
+
+
+<footer>
+    <section id="base-footer" class="">
+
+        <div class="col footer-box contactus-box">
+            <h3>تماس با ما</h3>
+
+            <div class="contactus">
+                <a href="tel:09126208853">
+                    <div class="contactus-a-item">
+                        <i class="bi bi-telephone"></i> شماره تماس :
+                        09126208853
+                    </div>
+                </a>
+            </div>
+
+            <div class="contactus">
+                <a href="tel:02146835952">
+                    <div class="contactus-a-item">
+                        <i class="bi bi-telephone"></i> شماره ثابت :
+                        46835952-021
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="contactus-item">
+                <i class="bi bi-geo-alt"></i>
+                آدرس : تهران شهر قدس خیابان چمن پلاک 72
+            </div>
+
+            <div class="contactus-item">
+                <iframe id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6192.270785650354!2d51.10735222719517!3d35.71882132502227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z2LTZh9ixINmC2K_YsyDYrtuM2KfYqNin2YYg2obZhdmG!5e0!3m2!1sen!2s!4v1743076183919!5m2!1sen!2s"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+        <div class="col footer-box footer-border quick-access-box">
+            <h3>دسترسی آسان</h3>
+
+            <div id="easy-access-item">
+                <a href="shop.html">
+                    <div class=" easy-access-item text-light">
+                        فروشگاه
+                    </div>
+                </a>
+            </div>
+
+            <div id="easy-access-item">
+                <a href="repairs.html">
+                    <div class="easy-access-item text-light">
+                        تعمیرات
+                    </div>
+                </a>
+            </div>
+
+            <div id="easy-access-item">
+                <a href="projects.html">
+                    <div class="easy-access-item text-light">
+                        انجام پروژه
+                    </div>
+                </a>
+            </div>
+
+            <div id="easy-access-item">
+                <a href="aboutus.html">
+                    <div class="easy-access-item text-light">
+                        درباره ما
+                    </div>
+                </a>
+            </div>
+
+            <!-- <section class="easy-access-baseicon">
+
+                <a class="easy-access-btn" href="#">
+                    <i class="fa-brands fa-instagram quick-access-icons text-danger"></i>
+                </a>
+
+                <a class=" easy-access-btn" href="#">
+                    <i class="fa-brands fa-whatsapp quick-access-icons text-success"></i>
+                </a>
+
+
+                <a class="easy-access-btn " href="#">
+                    <i class="fa-solid fa-phone quick-access-icons text-muted"></i>
+                </a>
+
+            </section> -->
+
+
+
+        </div>
+
+        <div class="col footer-box useful-links">
+            <h3>لینک های مفید</h3>
+
+            <div id="useful-links-box">
+                <a href="#">
+                    <div class="useful-links-box ">
+                        اتوماسیون های صنعتی
+                    </div>
+                </a>
+            </div>
+
+            <div id="useful-links-box">
+                <a href="#">
+                    <div class="useful-links-box ">
+                        اتوماسیون های صنعتی
+                    </div>
+                </a>
+            </div>
+
+            <div id="useful-links-box">
+                <a href="#">
+                    <div class="useful-links-box ">
+                        اتوماسیون های صنعتی
+                    </div>
+                </a>
+            </div>
+
+            <div id="useful-links-box">
+                <a href="#">
+                    <div class="useful-links-box ">
+                        اتوماسیون های صنعتی
+                    </div>
+                </a>
+            </div>
+
+            <div id="useful-links-box">
+                <a href="#">
+                    <div class="useful-links-box ">
+                        اتوماسیون های صنعتی
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+</footer>
+
+
+</html>
